@@ -12,5 +12,5 @@ flowchart LR
  ```
 Measured the analog outputs while varying the current by changing the variable resistor.
 ## results
-The 30mV per Amp could be verified on all 3 analog outputs.
+The 20mV per Amp could be verified on all 3 analog outputs.
 
