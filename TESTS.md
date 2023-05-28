@@ -1,12 +1,16 @@
-# test 1
+# low current test
 ## setup
-Describe your test setup
+Connect USB to supply 3.3V. Connect a lab power supply and a high current variable resistor through the terminal blocks.
+```mermaid
+flowchart LR 
+  usb[USB] --> b051[b051 v1.0]
+  b051 --> b103
+  b103 --> b129
+  power[Power SUpply] --> b129
+  b129 --> r[Variable Resistor]
+  
+ ```
+Measured the analog outputs while varying the current by changing the variable resistor.
 ## results
-Describe your results
+The 30mV per Amp could be verified on all 3 analog outputs.
 
-
-# test 2
-## setup
-Describe your test setup
-## results
-Describe your results
